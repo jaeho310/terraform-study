@@ -5,4 +5,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "this" {
   bucket = var.bucket_name
+  tags = {
+    name=var.bucket_tag
+  }
 }

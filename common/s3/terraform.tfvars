@@ -1,1 +1,0 @@
-bucket_name = "my-terraform-bucket-02"
